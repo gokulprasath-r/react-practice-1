@@ -9,6 +9,7 @@ function Accordion() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <section className="w-[600px] space-y-3">
+                <h1 className="text-2xl font-bold text-center">Accordion</h1>
                 {accordion.map((item, index) => (
                     <div
                         key={index}

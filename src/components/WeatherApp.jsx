@@ -31,6 +31,7 @@ function WeatherApp() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <div className="w-[400px] p-6 bg-white rounded-xl shadow-lg space-y-4">
+                <h1 className="text-2xl font-bold text-center">Weather App</h1>
                 <div className="flex">
                     <input
                         type="text"
