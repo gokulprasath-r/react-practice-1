@@ -30,7 +30,7 @@ function ToDoList() {
                         todo.map((item, index) => {
                             return <li key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded-md">
                                 <span>{item}</span>
-                                <button className="text-red-500 hover:text-red-600 cursor-pointer" onClick={() => handleDelete(index)}>✕</button>
+                                <button className="text-gray-500 hover:text-red-600 cursor-pointer" onClick={() => handleDelete(index)}>✕</button>
                             </li>
                         }) : <li className="flex items-center justify-center p-3 bg-gray-50 rounded-md">
                             <span>No Tasks Found</span>
