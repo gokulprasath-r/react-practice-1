@@ -1,18 +1,14 @@
-import { useRef, useCallback } from "react";
+import { useRef } from "react";
 
 export const useDebounce = (fn, delay) => {
     const timerRef = useRef(null);
 
-    const debouncedFn = useCallback(
-        (value) => {
-            clearTimeout(timerRef.current);
+    const debouncedFn = (value) => {
+        clearTimeout(timerRef.current);
 
-            timerRef.current = setTimeout(() => {
-                fn(value);
-            }, delay);
-        },
-        [fn, delay]
-    );
-
+        timerRef.current = setTimeout(() => {
+            fn(value);
+        }, delay);
+    }
     return debouncedFn;
 };
