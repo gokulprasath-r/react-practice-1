@@ -1,5 +1,4 @@
 function Tab1() {
-    console.log('Tab1 Loaded');
     return (
         <h2>
             Lazy loading in tabs means the content inside a tab is not loaded

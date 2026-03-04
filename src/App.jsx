@@ -1,6 +1,7 @@
 import './App.css';
 import Accordion from './components/Accordion.jsx';
 import Debounce from './components/Debounce.jsx';
+import InfiniteScroll from './components/InfiniteScroll.jsx';
 import LazyTab from './components/LaztTab.jsx';
 import Throttle from './components/Throttle.jsx';
 import TicTacToe from './components/TicTacToe.jsx';
@@ -10,6 +11,7 @@ import WeatherApp from './components/WeatherApp.jsx';
 function App() {
     return (
         <>
+            <InfiniteScroll />
             <LazyTab />
             <TicTacToe />
             <Throttle />
