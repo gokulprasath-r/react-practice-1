@@ -1,9 +1,13 @@
 import './App.css';
 import Accordion from './components/Accordion.jsx';
 import Debounce from './components/Debounce.jsx';
+import DragNDrop from './components/DragNDrop.jsx';
+import Form from './components/Form.jsx';
 import InfiniteScroll from './components/InfiniteScroll.jsx';
 import LazyTab from './components/LazyTab.jsx';
 import Modal from './components/Modal.jsx';
+import NavBar from './components/NavBar.jsx';
+import StopWatch from './components/StopWatch.jsx';
 import Throttle from './components/Throttle.jsx';
 import TicTacToe from './components/TicTacToe.jsx';
 import ToDoList from './components/ToDoList.jsx';
@@ -13,6 +17,10 @@ function App() {
     return (
         <>
             <Modal />
+            <NavBar />
+            <DragNDrop />
+            <Form />
+            <StopWatch />
             <InfiniteScroll />
             <LazyTab />
             <TicTacToe />
