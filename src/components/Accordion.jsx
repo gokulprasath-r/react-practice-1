@@ -3,7 +3,6 @@ import { accordion } from "../data/data.js"
 function Accordion() {
     const [open, setOpen] = useState(null);
     const handleOpen = (index) => {
-        console.log(index)
         setOpen(index === open ? null : index)
     }
     return (
@@ -24,7 +23,6 @@ function Accordion() {
                                 {item.description}
                             </p>
                         </div>
-
                     </div>
                 ))}
             </section>
@@ -32,4 +30,4 @@ function Accordion() {
     )
 }
 
-export default Accordion
+export default Accordion;

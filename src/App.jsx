@@ -13,11 +13,15 @@ import TicTacToe from './components/TicTacToe.jsx';
 import ToDoList from './components/ToDoList.jsx';
 import TypeAHead from './components/TypeAHead.jsx';
 import WeatherApp from './components/WeatherApp.jsx';
+import StarRating from './components/StarRating.jsx';
+import Pagination from './components/Pagination.jsx';
 function App() {
     return (
         <>
+            <Pagination />
+            <StarRating />
             <Modal />
-            <NavBar />
+            {/* <NavBar /> */}
             <DragNDrop />
             <Form />
             <StopWatch />
